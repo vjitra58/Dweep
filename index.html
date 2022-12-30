@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For Fun</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        ._main{
+            width: 100%;
+            background-color: #FFCD9E;
+            display: flex;
+            flex-direction: column;
+            justify-content:start;
+            align-items: center;
+        }
+        .container{
+            width: 100%;
+            max-width: 1100px;
+            height: 592px;
+            
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .footer{
+            width: 100%;
+            height: 250px;
+            background-color: #282828;
+            
+        }
+        .footer_wrapper{
+            width: 100%;
+            max-width: 1000px;
+            height: 100%;
+            margin :auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .left{
+            /* background-color: red; */
+            height: 100%;
+            display:flex;
+            flex-direction: column;
+            justify-content: center;
+            gap:10px;
+            align-items: flex-start;
+        }
+        .footer_wrapper p{
+            color: white;
+            font-size: 1rem;
+            font-family: "Inter";
+            font-style: normal;
+            font-weight: 400;
+            margin: 0;
+        }
+        .right{
+            /* background-color: blue; */
+            height: 100%;
+            display:flex;
+            flex-direction: column;
+            justify-content: center;
+            gap:10px;
+            align-items: flex-start;
+        }
+        .social_media{
+            display: flex;
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+        .content{
+            width: 50%;
+            /* background-color: red; */
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: start;
+            align-items: flex-start;
+            padding-right: 100px;
+            padding-top: 100px;
+        }
+        .sideImage{
+            text-align: center;
+            padding-top: 100px;
+            padding-right:0;
+            width: 50%;
+            /* background-color: blue; */
+            height: 100%;
+        }
+        .content h1{
+            font-weight: 700;
+            font-size: 2.25rem;
+            color:#282828;
+        }
+        
+        #long-text{
+            font-weight: 400;
+            font-size: 1.25rem;
+            color:#484848;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+        #short-text{
+            font-weight: 800;
+            font-size: 1.25rem;
+            color:#282828;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+        #bottom-text{
+            font-weight: 400;
+            font-size: 1rem;
+            color:white;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            padding-left: 20px;
+        }
+
+        input{
+            width: 200px;
+            height: 40px;
+            background-color: #F2F2F2;
+            border:black solid;
+            border-radius: 5px;
+            border-width: 2px;
+            padding-left: 20px;
+            font-size: 1rem;
+            font-family: "Inter";
+            font-style: normal;
+            font-weight: 400;
+            color: #484848;
+        }
+        button{
+            width: 200px;
+            height: 50px;
+            background-color: #282828;
+            border:black solid;
+            border-radius: 5px;
+            padding-left: 20px;
+            font-size: 1.25rem;
+            font-family: "Inter";
+            font-style: normal;
+            font-weight: 700;
+            color: white;
+        }
+
+        form{
+            display: flex;
+            gap: 20px;
+            margin-top: 20px;
+            align-items: center;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="_main">
+        <div class="container">
+            <div class="content">
+                <h1>An inspiring design delivered to your inbox every morning</h1>
+                <p id="long-text">Our team scouts the internet for the best designs, illustrations and art and delivers a truly inspiring one every day to
+                your inbox</p>
+
+                <p id="short-text">Show me how it looks</p>
+
+                <form>
+                    <input type="email" name="email" id="email" placeholder="Your email Address">
+                    <button type="submit">Register Now</button>
+                </form>
+
+                <p id="bottom-text">Free - No Spam - No Data Sharing</p>
+
+            </div>
+            <div class="sideImage">
+                <img src="/images/man.svg" alt="side image">
+            </div>
+        </div>
+        <div class="footer">
+            <div class="footer_wrapper">
+                <div class="left">
+                    <p>Promt Generator</p>
+                    <p>dweep daily</p>
+                    <p>All Contributions</p>
+                    <p>Your Data on Dweep.io</p>
+                    <p>Contribute to Dweep</p>
+                </div>
+                <div class="right">
+                    <p>Promt Generator</p>
+                    <p>dweep daily</p>
+
+                    <div class="social_media">
+                        <img src="/images/LinkedinLogo.svg" alt="linkdin icon">
+                        <img src="/images/InstagramLogo.svg" alt="instagram icon">
+                    </div>
+                    <p>Hello@Dweep.com</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>
